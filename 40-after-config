@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd linux
+sed -rie 's/echo "\+"/#echo "\+"/' scripts/setlocalversion
+cd ..
