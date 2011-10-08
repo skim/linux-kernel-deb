@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo apt-get -y install git-core kernel-package fakeroot build-essential ncurses-dev
+sudo apt-get -y install git-core kernel-package fakeroot build-essential libncurses-dev
