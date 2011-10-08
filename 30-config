@@ -2,3 +2,5 @@
 
 cd linux
 make xconfig
+cd ..
+cp linux/.config pentium-m.config
