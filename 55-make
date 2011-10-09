@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 cd linux
+make clean
+make mrproper
 make-kpkg clean
-CONCURRENCY_LEVEL=`getconf _NPROCESSORS_ONLN` fakeroot make-kpkg --initrd  --revision=0.1 --append-to-version=-custom-pentium-m kernel_image kernel_headers
+CONCURRENCY_LEVEL=`getconf _NPROCESSORS_ONLN` fakeroot make-kpkg --initrd  --revision=0.2 --append-to-version=-pentium-m kernel_image kernel_headers
 cd ..
