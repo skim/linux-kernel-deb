@@ -3,4 +3,4 @@
 cd linux
 make xconfig
 cd ..
-cp linux/.config pentium-m.config
+cp linux/.config current.config
