@@ -1,3 +1,9 @@
 source:
 
 https://wiki.ubuntu.com/KernelTeam/GitKernelBuild
+
+config file base from:
+
+http://kernel-seeds.org
+
+
