@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-./55-make > make.stdout.log 2> make.stderr.log &
+sh ./55-make > make.stdout.log 2> make.stderr.log &
 
