@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 cd linux
-make xconfig
+make menuconfig
 cd ..
 cp linux/.config current.config

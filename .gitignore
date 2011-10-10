@@ -1,3 +1,5 @@
 linux/
+.komodotools/
 *.log
 *.deb
+*.komodoproject
